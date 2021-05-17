@@ -1,0 +1,55 @@
+{
+  "name": "Golfbot",
+  "description": "Bókun í rástíma",
+  "main": "Main.xaml",
+  "dependencies": {
+    "BalaReva.ZipUnzip.Activities": "[2020.4.2]",
+    "UiPath.Excel.Activities": "[2.10.4]",
+    "UiPath.System.Activities": "[21.4.0]",
+    "UiPath.UIAutomation.Activities": "[21.4.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.6.0",
+  "projectVersion": "0.0.5",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "923bf774-dc25-4d72-a997-c2afc21ecbe0",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
